@@ -7,8 +7,11 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Badge from './components/Badge'
 
-const element = <h1>Hola holholaaaaa</h1>;
+// const element = <h1>Hola holholaaaaa</h1>;
+
+// const name = "Omar";
 const container = document.getElementById('app');
 
-ReactDOM.render(element, container);
+ReactDOM.render(<Badge />, container);
